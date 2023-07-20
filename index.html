@@ -274,8 +274,14 @@
               <div class="mb-3 form-group">
                 <input class="form-control contact__form__input" type="text" name="phone" placeholder="رقم الجوال">
               </div>
-              <div class="mb-3 form-group">
-                <input class="form-control contact__form__input" type="text" name="subject" placeholder="مهتم بـ">
+              <!-- .mb-3.form-groupinput.form-control(type='text' name='subject' placeholder="مهتم بـ").contact__form__input
+              -->
+              <div class="mb-3 form-group"><select class="form-select mb-3" aria-label="Default select example">
+                <optgroup label="مهتم بـ">
+                   <option value="1">One</option>
+<option value="2">Two</option>
+<option value="3">Three</option>
+                </optgroup>
               </div>
               <div class="mb-3 form-group">
                 <textarea class="form-control" rows="5" name="message" placeholder="الوصف"></textarea>
